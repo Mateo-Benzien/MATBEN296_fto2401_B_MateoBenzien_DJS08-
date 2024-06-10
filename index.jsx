@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import React from 'react';//Question 1.2.1
+import ReactDOM from 'react-dom/client';//Question 1.2.1
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom"//Question 1.2.1
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Vans from "./pages/Vans/Vans"
@@ -23,8 +23,10 @@ import "./server"
 
 function App() {
 
+//Question 1
+
   return (
-    <BrowserRouter>
+    <BrowserRouter> 
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

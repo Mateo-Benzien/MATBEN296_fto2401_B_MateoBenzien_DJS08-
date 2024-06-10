@@ -1,3 +1,4 @@
+//Question 3 useSearchParams
 import React from "react"
 import { Link, useSearchParams } from "react-router-dom"
 import { getVans } from "../../api"
